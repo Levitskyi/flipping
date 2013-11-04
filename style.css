@@ -1,0 +1,257 @@
+#all {
+	width:1020px;
+	margin:0 auto;
+	border:1px solid black;
+	
+}
+p {
+	margin:0;
+	padding:0;
+}
+.insert_data_block {
+	padding:20px 33px 20px 38px;	
+	height:175px;
+}
+.header_block_data {
+	font-size: 15px;
+	margin-bottom:10px;
+}
+.header_block_data a {
+	color:#62c3d3;
+}
+.block_with_data_type {
+	width:90px;
+	float:left;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.block_with_img {
+	margin:0 20px 0 0;
+	float:left;
+	width:220px;
+	height:175px;
+}
+.block_with_img img{
+	width:100%;
+	height:100%;
+}
+.block_with_text {
+	width:515px;
+	height:114px;
+	font-size: 14px;
+}
+.block_with_text p {
+	text-align:justify;
+}
+.block_button_type {
+	cursor:pointer;
+	background-color:#62c3d3;
+	text-align:center;
+	width:160px;
+	height:55px;
+	margin: 0 auto;
+	color:#fff;
+	font-size: 16px;
+	display: table-caption;
+}
+
+.block_button_type  span {
+	position: relative;
+	top: 30%;
+}
+.top_data {
+	text-align:center;
+}
+.bottom_data_text {
+	width:160px;
+	text-align:center;
+	color:#62c3d3;
+	margin-bottom:18px;
+}
+.middle_data_time{
+	text-align:center;
+	color:#cac7c7;
+	font-size:25px;
+}
+.voice_img{
+	width:160px;
+}
+.voice_img img {
+	margin: 0 auto;
+	display: block;
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+.block_with_data_type {
+	position:relative;
+}
+.grey_span {
+	color:#c6c3c3;
+
+}
+.span_data {
+	color:#797878;
+}
+.all_without_img {
+	float:left;
+	font-size:18px;
+	margin: 0 30px 0 0;
+	color:#676767;
+	
+}
+.last_block {
+	float:left;
+	font-size:18px;
+}
+.top_text_block {
+	margin-bottom:15px;
+}
+#promo_special {
+	background:#fff9c3;
+}
+.last_block .block_button_type:hover {
+	box-shadow: 0 -3px 1px 0 #4e99a5 inset;
+}
+
+
+
+
+
+
+/* entire container, keeps perspective */
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+  /* flip the pane when hovered */
+  .flip-container:hover .flipper, .flip-container.hover .flipper {
+   
+  }
+ 
+.flip-container, .front, .back {
+ 
+}
+ 
+/* flip speed goes here */
+.flipper {
+  -webkit-transition: 0.8s;
+  -webkit-transform-style: preserve-3d;
+ 
+  -moz-transition: 0.8s;
+  -moz-transform-style: preserve-3d;
+ 
+  -o-transition: 0.8s;
+  -o-transform-style: preserve-3d;
+ 
+  transition: 0.8s;
+  transform-style: preserve-3d;
+ 
+  position: relative;
+}
+ 
+/* hide back of pane during swap */
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+ 
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+}
+ 
+/* back, initially hidden pane */
+.back {
+	height:175px;
+	width: 945px;
+	background:#ececec;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.left_date_text {
+	float:left;
+	height:175px;
+	margin:18px 5px 0 15px;
+}
+ul {
+	padding:0;
+	margin:0;
+	
+}
+.left_date_text ul li {
+	list-style-type:none;
+	font-size:18px;
+	color:#797878;
+	margin-bottom:2px;
+	
+}
+.contact_submit_type {
+	cursor:pointer;
+	background-color:#62c3d3;
+	text-align:center;
+	width:160px;
+	height:55px;
+	margin: 0 auto;
+	color:#fff;
+	font-size: 16px;
+	display: table-caption;
+	float:right;
+	}
+.contact_submit_type a {
+	position: relative;
+	top: 30%;
+}
+.contact_submit_type:hover {
+	box-shadow: 0 -3px 1px 0 #4e99a5 inset;
+}
+.insert_data_form {
+	color:#949494;
+}
+.text_from_post {
+	margin-top:23px;
+	font-size: 15px;
+	display: inline-block;
+}
+.text_from_post a {
+	color:#62c3d3;
+}
+.contact-form input {
+	width:245px;
+	height:44px;
+	border:1px solid #62c3d3;
+	font-size:14px;
+	color:#c6c3c3;
+	padding-left:20px;
+	margin: 8px 40px 8px 0;
+	outline:none;
+}
+.close_form {
+	width:15px;
+	height:15px;
+	background:url('img/close.png');
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor:pointer;
+}
+div.contact_submit_type {
+	margin-top:-98px;
+	margin-right:57px;
+}
