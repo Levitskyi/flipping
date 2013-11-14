@@ -119,11 +119,6 @@ p {
 	box-shadow: 0 -3px 1px 0 #4e99a5 inset;
 }
 
-
-
-
-
-
 /* entire container, keeps perspective */
 .flip-container {
   -webkit-perspective: 1000;
@@ -131,15 +126,6 @@ p {
   -o-perspective: 1000;
   perspective: 1000;
 }
-  /* flip the pane when hovered */
-  .flip-container:hover .flipper, .flip-container.hover .flipper {
-   
-  }
- 
-.flip-container, .front, .back {
- 
-}
- 
 /* flip speed goes here */
 .flipper {
   -webkit-transition: 0.8s;
